@@ -1,0 +1,20 @@
+{
+  "name": "date-fns-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mkohlmyr/date-fns-reproduction.git",
+  "author": "Mikael Kohlmyr <mikael.kohlmyr@ovoenergy.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:local": "jest",
+    "test:tokyo": "TZ=Asia/Tokyo jest",
+    "test:paris": "TZ=Europe/Paris jest",
+    "test:sofia": "TZ=Europe/Sofia jest"
+  },
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "date-fns-tz": "^1.0.12",
+    "jest": "^26.6.3",
+    "timezone-support": "^2.0.2"
+  }
+}
